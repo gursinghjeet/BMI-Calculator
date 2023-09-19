@@ -4,23 +4,62 @@
     margin-top: 10px;
 }
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: inherit;
-    font-size:larger;
-    color: rgb(177, 156, 55);
-    background-color:rgb(87, 121, 136);
+    background-image: url('running-bg.jpg');
+    background-repeat: no-repeat; 
+     background-size: 100%;
 }
 input{
     border-radius: 10px;
+    margin: 6px 6px;
+    width: 25vh;
     padding-right: 79px;
     padding-top: 5px;
     background-color: antiquewhite;
 }
+::-webkit-input-placeholder { 
+    font-size: 16px;
+    padding-left:5px;
+
+  }
 button{
     border-radius: 10px;
+    display: flex;
     padding : 15px 15px;
     text-align: center;
     font-size: 16px;
     margin-left: 76px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: rgb(172, 117, 45);
+}
+.res{
+    border-width: 15px;
+    opacity: .7;
+    border-radius: 3px;
+    color: aliceblue;
+    background-color: rgb(34, 35, 85);
+    padding: 15px 15px;
+}
+
+.description{
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: x-large;
+    color: rgb(160, 173, 117);
+}
+.container{
+    margin: 6vh 115vh;
+    border-radius: 30px;
+    color: white;
+    width: 98%;
+    max-width: 28%;
+    background-color: rgba(27, 16, 5, 0.8);
+    
+}
+.footer{
+    margin: 10px 43px;
+    background-color: rgb(34, 35, 85);
+    border-radius: 10px;
+    padding: 5px 10px;
+    opacity: .7;
 }

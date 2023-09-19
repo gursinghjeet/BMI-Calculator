@@ -6,6 +6,7 @@
     <title>BMI Calculater</title>
 </head>
 <body>
+    <div class="container">
     <div class="header">
         <h1>BMI Calculater</h1>
     </div>
@@ -14,15 +15,20 @@
     <div class="midpart">
         <form class="data">
             <p><label>Heihgt in CM :</label></p>
-            <input type="number" id="height">
+            <input type="number" id="height" placeholder="enter your height...">
             <p><label>Weight in KG :</label></p>
-            <input type="number" id="weight">
+            <input type="number" id="weight" placeholder="enter your weight...">
 
             
             <button class="button">Calculate</button>
             
+            <div class="res">
+                <div id="result">here your result...</div>
+            </div>
 
-            <div id="result"></div>
+            <div class="description">
+                <div id="description"></div>
+            </div>
 
             <div class="footer">
                 <h2>BMI Weight Guide</h2>
@@ -36,7 +42,7 @@
 
     </div>
         
-    
+    </div>
 </body>
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
